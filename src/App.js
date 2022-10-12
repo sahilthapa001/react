@@ -1,12 +1,14 @@
 import React from "react";
 import Nav from "./component/nav";
-import Main from "./component/main";
+import Hero from "./component/hero";
+import Card from "./component/card";
 
 export default function App() {
 	return (
 		<div className="container">
 			<Nav />
-			<Main />
+			<Hero />
+			<Card />
 		</div>
 	);
 }
